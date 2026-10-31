@@ -4,6 +4,9 @@ My bedroom as a 3D model, built from eight phone photos — no floor plan, no ta
 in a browser: walk it in first person, drag the furniture around, compare four layouts, and add or
 take out shelves, a pegboard and a bean bag.
 
+> [!P.S.]
+> I created this for trying different layouts and add/remove features before irl stuff, as I'll be making it prettier so ignore the mess
+
 ![The plan, the model and the panel](docs/overview.jpg)
 
 Everything is one HTML file. Three.js comes from a CDN; the rest — geometry, finishes, the UI — is
@@ -40,7 +43,7 @@ turns it in 15° steps, `R` or a double-click turns it 90°, arrow keys nudge an
 `Shift`+arrows a foot. Hold `Alt` to drag without snapping to walls, or type exact distances into
 the four "From … wall" boxes.
 
-**Add and remove.** *Add a piece* opens a catalogue — sofas, tables, storage, beds, lamps, plants,
+**Add and remove.** _Add a piece_ opens a catalogue — sofas, tables, storage, beds, lamps, plants,
 rugs, art — with my own four at the top: pegboard, floating shelf, shelf unit, bean bag. A new piece
 lands in the clearest spot, then drags, turns, recolours and takes size variants like everything
 else. `Delete` removes one; it waits in the library under "In this room" in case I want it back.
@@ -51,8 +54,8 @@ of, tall things in front of the window, and how much open floor is left.
 
 **Repaint it.** Four one-click looks, and swatches for the walls, floor, trim and every piece.
 
-**Four layouts.** *The room as it is* · *Desk at the window* · *The room the other way round* ·
-*Shelves, pegboard and a bean bag*. Each one carries its own trade-off note, and its own furniture
+**Four layouts.** _The room as it is_ · _Desk at the window_ · _The room the other way round_ ·
+_Shelves, pegboard and a bean bag_. Each one carries its own trade-off note, and its own furniture
 positions, colours and added pieces.
 
 ## The room
@@ -62,30 +65,30 @@ edges, wardrobe corners and room corners out of the photos and least-squares fit
 eight camera positions together. Heights come from each photo's own ceiling and floor lines, and the
 absolute scale rests on the 80″ door openings.
 
-| | |
-|---|---|
-| Room | 126 × 134 inside (10′-6″ × 11′-2″), ceiling 108″ |
-| Window | 46 wide, sill 26, head 82, 23″ from the west corner |
-| Window AC | 24 × 15 × 14, inside the window head, underside 67 |
-| Balcony door | 28 wide, glazed 5 → 84, 5″ east of the window |
-| Hall door | 32 × 80, hinged on its west jamb, swinging in |
-| Bath door | 26 × 80, swinging out, 13″ of wall between the two jambs |
-| Bed | 40 × 78, mattress 22 up, headboard 36, 10″ off the door wall |
-| Wardrobe | 44 × 23 × 84, with a 15″ basket on top |
-| Desk | 47 × 23 × 30, standing 4″ clear of the wardrobe |
-| Tapestry | 54 × 46, bottom edge 31 up |
-| Guitar | 14 across, hanging 40 → 81 |
-| Deck shelf | 32 wide at 80, over the bath door |
-| Leaning skateboard | 31 tall, 10″ west of the window |
-| Curtain | 20″ of bunched panel, 92 long |
-| Wall sconce | 11 × 5½, 85 up |
-| Door rug | 30 × 18 · ceiling fan 48″ sweep on a 13″ drop · floor as 24″ tile courses |
+|                    |                                                                           |
+| ------------------ | ------------------------------------------------------------------------- |
+| Room               | 126 × 134 inside (10′-6″ × 11′-2″), ceiling 108″                          |
+| Window             | 46 wide, sill 26, head 82, 23″ from the west corner                       |
+| Window AC          | 24 × 15 × 14, inside the window head, underside 67                        |
+| Balcony door       | 28 wide, glazed 5 → 84, 5″ east of the window                             |
+| Hall door          | 32 × 80, hinged on its west jamb, swinging in                             |
+| Bath door          | 26 × 80, swinging out, 13″ of wall between the two jambs                  |
+| Bed                | 40 × 78, mattress 22 up, headboard 36, 10″ off the door wall              |
+| Wardrobe           | 44 × 23 × 84, with a 15″ basket on top                                    |
+| Desk               | 47 × 23 × 30, standing 4″ clear of the wardrobe                           |
+| Tapestry           | 54 × 46, bottom edge 31 up                                                |
+| Guitar             | 14 across, hanging 40 → 81                                                |
+| Deck shelf         | 32 wide at 80, over the bath door                                         |
+| Leaning skateboard | 31 tall, 10″ west of the window                                           |
+| Curtain            | 20″ of bunched panel, 92 long                                             |
+| Wall sconce        | 11 × 5½, 85 up                                                            |
+| Door rug           | 30 × 18 · ceiling fan 48″ sweep on a 13″ drop · floor as 24″ tile courses |
 
 The same list is on the page, under the plan. Colours were sampled from lit patches of the photos.
 
 ### How close it is
 
-The *Photos* tab draws the model over each original shot — that is the test, not my opinion of it.
+The _Photos_ tab draws the model over each original shot — that is the test, not my opinion of it.
 
 ![Photo 1 beside the same camera in the model](docs/photo-match.jpg)
 
@@ -95,8 +98,8 @@ things the photos genuinely do not settle: which jamb the hall door hangs on, an
 room — no single photo shows both end walls — so 11′-2″ carries the most uncertainty of any number
 above.
 
-To correct something: edit the size in `config.js`, or tune a camera live in the *Photos* panel and
-press *Copy camera* to get the numbers back.
+To correct something: edit the size in `config.js`, or tune a camera live in the _Photos_ panel and
+press _Copy camera_ to get the numbers back.
 
 ## Editing
 
