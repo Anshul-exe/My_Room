@@ -148,8 +148,11 @@ applied after each build:
 
 ## Credits
 
-- 3D engine from the [`room-from-photos`](https://github.com/SkylarKitchen/skills) skill
-- [three.js](https://threejs.org) r162, loaded from jsDelivr
-- Material scans from [ambientCG](https://ambientcg.com), CC0 — see `textures/SOURCES.md`
-
-Private repo: the photos are of my own room.
+- 3D engine from the [`room-from-photos`](https://github.com/SkylarKitchen/skills) skill by Skylar
+  Kitchen, MIT. `index.html` is a build that includes it, so its licence travels with this repo:
+  `licenses/room-from-photos-MIT.txt`.
+- [three.js](https://threejs.org) r162, MIT, loaded from jsDelivr at runtime — not bundled here.
+- Material scans in `textures/` from [ambientCG](https://ambientcg.com), CC0 (public domain, no
+  attribution required) — `textures/SOURCES.md` lists each one and where it came from.
+- The eight photos, this room's config, the extensions in `build/patch.py` and everything else here
+  are mine.

@@ -2,6 +2,8 @@
 # Open the room locally. Serves this folder on 127.0.0.1:8080 (localhost only, nothing is published)
 # and opens it in your browser. Ctrl-C stops it.
 #   sh room.sh [port]
+# It execs python3, so the process shows up as 'python3 -m http.server', not as room.sh:
+#   ps -eo pid,args | grep [h]ttp.server     ss -ltnp | grep 8080     pkill -f 'http.server 8080'
 PORT=${1:-8080}
 HERE=$(cd "$(dirname "$0")" && pwd)
 URL="http://127.0.0.1:$PORT/index.html"
