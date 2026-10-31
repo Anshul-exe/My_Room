@@ -4,8 +4,8 @@ My bedroom as a 3D model, built from eight phone photos — no floor plan, no ta
 in a browser: walk it in first person, drag the furniture around, compare four layouts, and add or
 take out shelves, a pegboard and a bean bag.
 
-> [!P.S.]
-> I created this for trying different layouts and add/remove features before irl stuff, as I'll be making it prettier so ignore the mess
+> [!NOTE]
+> I created this to try different layouts and add/remove features before irl stuff, as I'll be making it prettier, so ignore the mess
 
 ![The plan, the model and the panel](docs/overview.jpg)
 
